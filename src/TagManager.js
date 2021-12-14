@@ -30,7 +30,6 @@ const TagManager = {
     }
   },
   initialize: function ({ gtmId, events = {}, dataLayer, dataLayerName = 'dataLayer', auth = '', preview = '', externalPath }) {
-    console.log('externalPath', externalPath);
     const gtm = this.gtm({
       id: gtmId,
       events: events,

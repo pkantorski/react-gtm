@@ -11,8 +11,6 @@ const Snippets = {
     let scriptPath = 'https://www.googletagmanager.com/gtm.js'
     if (externalPath) scriptPath = externalPath
 
-    console.log(scriptPath);
-
     const iframe = `
       <iframe src="https://www.googletagmanager.com/ns.html?id=${id}${gtm_auth}${gtm_preview}&gtm_cookies_win=x"
         height="0" width="0" style="display:none;visibility:hidden" id="tag-manager"></iframe>`
